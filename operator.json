@@ -1,9 +1,9 @@
 {
-  "name": "Template_R_operator",
-  "description": "Calculate the mathamatical average of the data points in a cell.",
-  "tags": ["basic statistics"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_R_operator"],
+  "name": "dascombat_prediction_operator",
+  "description": "Apply a DasCombat model to data.",
+  "tags": ["pamgene", "dascombat", "prediction"],
+  "authors": ["tercen", "wptmdoorn"],
+  "urls": ["https://github.com/tercen/dascombat_prediction_operator"],
   "properties": []
 }
 
