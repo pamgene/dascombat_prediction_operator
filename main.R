@@ -19,6 +19,6 @@ out <- ctx %>%
   applyModel(., model, model$bx) %>%
   melt %>%
   as.data.frame %>%
-  rename(.ri = Var1, .ci = Var2) %>%
+  rename(.ri = Var1, .ci = Var2, CmbCor = value) %>%
   ctx$addNamespace() %>%
   ctx$save()
