@@ -10,23 +10,22 @@ DasCOMBAT software developed at PamGene. This fitted model can be obtained throu
 
 Input projection|.
 ---|---
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description 
-`labels`        | dascombat model, obtained in the `dascombat_fit_operator`
+`y-axis`        | the y values
+`row`           | the peptide IDs
+`column`        | the barcodes
+`colors`        | the reference batches
+`labels`        | the `model` obtained from the `dascombat_fit_operator`
 
 Output relations|.
 ---|---
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description
+`CmbCor`        | the combat corrected values (the `y-axis` values in the input)
 
 ##### Details
 
-Details on the computation.
+Details on the computation can be found in the `pamgene::pgbatch` and 
+`SVA::combat` applications.
 
 ##### See Also
 
-[dascombat_fit_operator](https://github.com/tercen/dascombat_fit_operator)
-
-
+[dascombat_fit_operator](https://github.com/tercen/dascombat_fit_operator),
+[dascombat_shiny_fit_operator](https://github.com/tercen/dascombat_shiny_fit_operator)
