@@ -3,8 +3,6 @@
   "description": "Apply a DasCombat model to data.",
   "tags": ["pamgene", "dascombat", "prediction"],
   "authors": ["tercen", "wptmdoorn"],
-  "urls": ["https://github.com/tercen/dascombat_prediction_operator"],
+  "urls": ["https://github.com/pamgene/dascombat_prediction_operator"],
   "properties": []
 }
-
-
